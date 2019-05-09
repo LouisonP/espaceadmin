@@ -8,7 +8,7 @@
    if(!isset($email) && !isset($pseudo) && !isset($password)){
     echo "coucou";
    } else {
-    // ICI REQUETE A FAIRE selcetionner tous les emails de la tavle ou lemai sera egal a dollar email 
+    // ICI REQUETE A FAIRE selcetionner tous les emails de la table ou l'email sera égal à $email 
     // Il faudra récup un compteur de resultat si réponse au dessus de zero cest qu'il y a un inscrit
     // SINON :
     echo "c";
