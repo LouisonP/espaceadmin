@@ -1,4 +1,5 @@
 <?php
+    // require est plus sécurisant
     require 'connexion.php';
     $email = htmlspecialchars($_POST['email']);
     $pseudo = htmlspecialchars($_POST['pseudo']);
